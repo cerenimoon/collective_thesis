@@ -26,4 +26,4 @@ Efficientnet-b0 - Efficientnet-b7 Transfer Learning mimarileri kullanılmıştı
 - **DevOps / Infrastructure - Geliştirme ve Altyapı:**  Git, Github
 
 ## 📊 Performance Metrics & Results - Performans Metrikleri ve Sonuçlar 
-- **Accuracy Improvement:** Achieved a **+5.2% increase in mAP@0.5** via advanced data augmentation and dataset engineering.
+- **Accuracy - Doğruluk:** Achieved a **96% validation accuracy rate** via  data augmentation and Transfer Learning improvement. 
