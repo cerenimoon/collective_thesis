@@ -1,20 +1,20 @@
 # [collective_thesis - Malware Classification with Deep Learning Models - Derin Öğrenme Modelleriyle Malware Sınıflandırması]
 
 ## 📌 Overview - Genel Bakış
-This repository features malware classification model implementing 
+- This repository features malware classification model implementing deep learning models based on Efficientnet architecture. 
+- Bu kod tabanı, Efficientnet mimarisine sahip derin öğrenme modellerini uygulayan malware sınıflandırma modeli içermektedir. 
 
 ## 🚀 Key Features - Anahtar Özellikler 
-- **Custom Model Training:** Fine-tuned YOLOv5/EfficientNet architectures using Transfer Learning.
-- **Model Optimization:** Converted PyTorch weights (`.pt`) to ONNX and TensorRT formats for edge deployment.
-- **Data Engineering:** Automated image preprocessing and data stratification utilizing OpenCV.
-- **Robust Backend:** Integrated with a Django REST API backed by a optimized PostgreSQL database.
+- **Custom Model Training - Özel:** Fine-tuned Efficientnet architectures using Transfer Learning for classification of malware images.
+Efficientnet mimarileri Transfer Learning yöntemiyle malware görüntülerinin sınıflandırması için uyarlanmıştır.
+Model weights are saved as PyTorch weights (`.pt`). Model ağırlıkları PyTorch (.pt) ağırlıkları olarak kaydedilmiştir. 
+- **Data Preprocessing - Veri Önişlemesi:** Image preprocessing via reshaping, compressing and turning into tensor structure utilizing OpenCV and PyTorch tools.
+Görüntü işleme adımları, boyutlandırma, sıkıştırma ve tensor yapılarına dönüştürme OpenCV ile PyTorch araçlarıyla gerçekleştirilmiştir. 
 
 ## 🛠️ Tech Stack & Architecture - Teknik Özellikler ve Mimari
+- **Code Area - Kod Tabanı:** Python
 - **Deep Learning Tools - Derin Öğrenme Araçları:** PyTorch, OpenCV 
-- **Backend & Database:** Python, Django REST Framework, PostgreSQL
-- **DevOps / Infrastructure:** Linux/Ubuntu, Git, Docker
+- **DevOps / Infrastructure - Geliştirme ve Altyapı:**  Git, Github
 
 ## 📊 Performance Metrics & Results - Performans Metrikleri ve Sonuçlar 
-- **Latency Reduction:** Decreased inference latency by **40%** (from 45ms to 27ms) using TensorRT optimization.
 - **Accuracy Improvement:** Achieved a **+5.2% increase in mAP@0.5** via advanced data augmentation and dataset engineering.
-- **Database Speed:** Reduced query response times by **150ms** through strategic database replication setups and indexing.
